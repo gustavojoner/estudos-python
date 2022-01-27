@@ -1,0 +1,19 @@
+valor = int(input('Qual valor deseja sacar?: '))
+nota50 = nota20 = nota10 = nota1 = 0
+while valor >= 50:
+    valor -= 50
+    nota50 += 1
+while valor >= 20:
+    valor -= 20
+    nota20 += 1
+while valor >= 10:
+    valor -= 10
+    nota10 += 1
+while valor >= 1:
+    valor -= 1
+    nota1 += 1
+print(f'Total de células = {nota50+nota20+nota10+nota1}, Sendo:')
+print(f'R$50,00 = {nota50} cédulas')
+print(f'R$20,00 = {nota20} cédulas')
+print(f'R$10,00 = {nota10} cédulas')
+print(f'R$1,00 = {nota1} células')

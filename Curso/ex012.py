@@ -1,0 +1,5 @@
+print('Calculadora para descontos')
+p = float(input('Valor do produto: '))
+d = float(input('% de desconto: '))
+t = p - (p * d / 100)
+print('O valor total com desconto aplicado é: R$ {:.2f}'.format(t))
