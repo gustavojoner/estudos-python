@@ -1,4 +1,2 @@
-# estudospython
-Estudos de Python
+# arquivos referentes aos estudos de PYTHON baseados no curso em video de gustavo guanabara
 
-Curso em Vídeo - Gustavo Guanabara
